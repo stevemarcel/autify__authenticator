@@ -1,9 +1,28 @@
+$pry__color: #0c2030;
+$sec__color: #db7416;
+$grey__color: #c4c4c4;
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-$pry__color: #0c2030;
-$sec__color: #db7416;
-$grey__color: #c4c4c4;
+a {
+  color: $pry__color;
+
+  &:hover {
+    color: $sec__color;
+  }
+}
+
+li {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-x: hidden;
+}

@@ -1,1 +1,42 @@
 @import 'config';
+
+// Custom Classes
+.text__pry {
+  color: $pry__color;
+}
+
+.page__footer {
+  background: $pry__color;
+  color: $grey__color;
+
+  a {
+    color: $grey__color;
+
+    &:hover {
+      color: $sec__color;
+    }
+  }
+}
+
+// Main styling
+body {
+  background: $grey__color;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+#search {
+  border: 1px;
+  background: transparent;
+  width: 95%;
+  // &:focus{
+  // border: none;
+  // }
+}
+
+#accounts__list{
+  height: 67vh;
+  font-size: xx-large; ;
+}
